@@ -1,6 +1,6 @@
 // Función para cargar noticias desde un archivo JSON
 function cargarNoticias() {
-  fetch('../js/noticias.json')
+  fetch('./js/noticias.json')
     .then(response => response.json())
     .then(data => {
       mostrarNoticias('nacionales', data.nacionales);
