@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto Dinámico</title>
+    <link rel="stylesheet" href="../css/presupuesto.css">
+</head>
+<body>
+
+<nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="#">
+              <h4>My<span>News</span></h4>
+            </a>
+          </div>
+      
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="../index.html">Home</a></li>
+              <li class="navbar-dropdown">
+                <a href="../index.html" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                  Categorias <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown" id="my-dropdown-id">
+                  <li><a href="#internacionales">Internacionales</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#nacionales">Nacionales</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#deportes">Deportes</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#tecnologia">Tecnologia</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Presupuesto</a></li>
+              <li><a href="../views/galeria.html">Galeria</a></li>
+              <li><a href="../views/contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<main>
+    <section id="budget-section">
+        <h2 >Formulario de Presupuesto</h2>
+        <form id="budget-form">
+            <!-- Datos de contacto -->
+            <h3>Datos de contacto</h3>
+            
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" maxlength="15" required>
+            
+            <label for="surname">Apellidos:</label>
+            <input type="text" id="surname" name="surname" maxlength="40" required>
+            
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" maxlength="9" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Opciones del servicio -->
+            <h3>Elige tu producto</h3>
+            
+            <label for="product">Producto:</label>
+            <select id="product" name="product">
+                <option value="product1">El diario - $500</option>
+                <option value="product2">El Confidencial - $1000</option>
+                <option value="product3">El Marca - $1500</option>
+            </select>
+
+            <label for="plazo">Suscripcion (meses):</label>
+            <input type="number" id="plazo" name="plazo" min="1" max="12" value="1">
+
+            <h3>Extras</h3>
+            <input type="checkbox" id="seo" name="extras" value="seo">
+            <label for="seo">Eliminar Publicidad ($200)</label><br>
+            
+            <input type="checkbox" id="hosting" name="extras" value="hosting">
+            <label for="hosting">Multidispositivo ($100)</label><br>
+
+            <input type="checkbox" id="maintenance" name="extras" value="maintenance">
+            <label for="maintenance">Acceso anticipado a noticias ($300)</label><br>
+
+            <!-- Presupuesto total -->
+            <h3>Presupuesto total: <span id="total-budget">$0</span></h3>
+
+            <!-- Aceptación de condiciones -->
+            <label>
+                <input type="checkbox" id="terms" required> Acepto las condiciones de privacidad.
+            </label><br>
+
+            <!-- Botones -->
+            <button type="submit" id="submit-btn">Enviar Presupuesto</button>
+            <button type="reset">Resetear Formulario</button>
+        </form>
+    </section>
+
+</main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <h3>Síguenos en:</h3>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.x.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="company-info">
+                <p><strong>Dirección:</strong> Calle Sol  123, Madrid, España</p>
+                <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                <p><strong>Email:</strong> info@mynews.com</p>
+            </div>
+            <div class="legal-notice">
+                <a href="#">Aviso Legal</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyNews - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+    <script src="../js/validacion.js"></script>
+</body>
+</html>

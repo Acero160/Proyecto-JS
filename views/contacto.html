@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- Enlace al CSS de Leaflet y el archivo de estilos -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="../css/contacto.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="#">
+              <h4>My<span>News</span></h4>
+            </a>
+          </div>
+      
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="../index.html">Home</a></li>
+              <li class="navbar-dropdown">
+                <a href="../index.html" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                  Categorias <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown" id="my-dropdown-id">
+                  <li><a href="#internacionales">Internacionales</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#nacionales">Nacionales</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#deportes">Deportes</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#tecnologia">Tecnologia</a></li>
+                </ul>
+              </li>
+              <li><a href="./presupuesto.html">Presupuesto</a></li>
+              <li><a href="../views/galeria.html">Galeria</a></li>
+              <li><a href="./views/contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+     <!-- Información de contacto -->
+     <div class="contact-info">
+        <h2>Información de Contacto</h2>
+      </div>
+    
+
+    <!-- Mapa dinámico -->
+    <div id="map"></div>
+
+    
+
+    <!-- Información de contacto -->
+    <div class="contact-info">
+      </div>
+        
+        
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="social-icon"></a>
+            <a href="https://www.x.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Twitter" class="social-icon"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="social-icon"></a>
+        </div>
+        <div class="company-info">
+            <p><strong>Dirección:</strong> Calle Sol 123, Madrid, España</p>
+            <p><strong>Teléfono:</strong> +34 123 456 789</p>
+            <p><strong>Email:</strong> info@mynews.com</p>
+        </div>
+        <div class="legal-notice">
+            <p><a href="aviso-legal.html">Aviso Legal</a></p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Incluye Leaflet.js y el archivo de scripts -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="../js/contacto.js"></script>
+
+</body>
+</html>

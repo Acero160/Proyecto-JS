@@ -1,0 +1,71 @@
+{
+    "nacionales": [
+      {
+        "titulo": "Elecciones anticipadas en España: Un giro inesperado en la política",
+        "contenido": "El presidente ha anunciado elecciones anticipadas para el próximo mes, sorprendiendo a la opinión pública. Esta decisión podría cambiar el panorama político del país, ya que las encuestas muestran un escenario muy reñido entre los principales partidos.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "Subida del salario mínimo interprofesional afectará a más de 5 millones de trabajadores",
+        "contenido": "El gobierno ha acordado una subida del salario mínimo del 5%, lo que beneficiará a más de 5 millones de trabajadores en todo el país. La medida ha generado tanto elogios como críticas entre empresarios y sindicatos.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "El cambio climático y sus efectos en las costas españolas",
+        "contenido": "Un reciente estudio ha revelado que las costas españolas están sufriendo los efectos del cambio climático más rápido de lo previsto. Las autoridades costeras trabajan en soluciones para mitigar el impacto.",
+        "enlace": "#"
+      }
+    ],
+    "internacionales": [
+      {
+        "titulo": "Crisis política en Alemania: El canciller enfrenta una moción de censura histórica",
+        "contenido": "El canciller alemán enfrenta una moción de censura tras las últimas decisiones políticas que han dividido a la coalición gobernante. Expertos creen que esta crisis podría derivar en elecciones anticipadas.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "Acuerdo climático en la ONU: Se logran avances para reducir las emisiones globales",
+        "contenido": "Tras intensas negociaciones, los países miembros de la ONU han acordado reducir las emisiones de CO2 en un 30% para 2030, con el objetivo de frenar el cambio climático. Los activistas ambientales consideran este acuerdo un paso positivo, aunque insuficiente.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "Creciente tensión entre Rusia y Ucrania: La comunidad internacional en alerta",
+        "contenido": "Las tensiones entre Rusia y Ucrania siguen en aumento, con movimientos militares en las fronteras que preocupan a la comunidad internacional. La OTAN ha expresado su preocupación por un posible conflicto inminente.",
+        "enlace": "#"
+      }
+    ],
+    "deportes": [
+      {
+        "titulo": "Final de la Champions League: Real Madrid y Manchester City se enfrentarán en una batalla épica",
+        "contenido": "El Real Madrid y el Manchester City se verán las caras en la final de la Champions League, en lo que promete ser uno de los partidos más emocionantes de la temporada. Ambos equipos llegan en su mejor momento.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "Oro para España en los Juegos Olímpicos: Histórico triunfo en natación",
+        "contenido": "España ha conseguido su primera medalla de oro en natación en unos Juegos Olímpicos, gracias a la brillante actuación de su joven promesa. Este logro representa un hito para el deporte español.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "Rafa Nadal regresa a las canchas tras su lesión: ¿Podrá recuperar su mejor nivel?",
+        "contenido": "Después de una prolongada lesión, Rafa Nadal ha anunciado su regreso a las competiciones. Los expertos se preguntan si podrá recuperar el nivel que lo ha mantenido en la cima del tenis mundial por tantos años.",
+        "enlace": "#"
+      }
+    ],
+    "tecnologia": [
+      {
+        "titulo": "Apple presenta el nuevo iPhone 15: ¿Qué novedades trae el último modelo?",
+        "contenido": "Apple ha lanzado su esperado iPhone 15, que incluye varias mejoras respecto a versiones anteriores, como una cámara más potente, mayor autonomía de la batería y nuevas funcionalidades de inteligencia artificial.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "El avance de la inteligencia artificial: Oportunidades y riesgos para el futuro",
+        "contenido": "La inteligencia artificial sigue transformando sectores clave como la medicina, la educación y la industria. Sin embargo, también plantea importantes desafíos éticos y laborales para las sociedades del futuro.",
+        "enlace": "#"
+      },
+      {
+        "titulo": "Tesla anuncia su primer camión eléctrico: Revolución en el transporte pesado",
+        "contenido": "Elon Musk ha revelado el primer camión eléctrico de Tesla, diseñado para reducir las emisiones en el transporte de mercancías. La compañía asegura que este nuevo modelo cambiará las reglas del juego en la industria del transporte.",
+        "enlace": "#"
+      }
+    ]
+  }
+  

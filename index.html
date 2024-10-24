@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - Inicio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="#">
+              <h4>My<span>News</span></h4>
+            </a>
+          </div>
+      
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="navbar-dropdown">
+                <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                  Categorias <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown" id="my-dropdown-id">
+                  <li><a href="#internacionales">Internacionales</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#nacionales">Nacionales</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#deportes">Deportes</a></li>
+                  <li class="separator"></li>
+                  <li><a href="#tecnologia">Tecnologia</a></li>
+                </ul>
+              </li>
+              <li><a href="./views/presupuesto.html">Presupuesto</a></li>
+              <li><a href="./views/galeria.html">Galeria</a></li>
+              <li><a href="./views/contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Contenido Principal -->
+    <div class="content">
+        <!-- Sección Nacionales -->
+        <section id="nacionales">
+          <h2>Nacionales</h2>
+          <div id="nacionalesNoticias"></div>
+        </section>
+
+        <!-- Sección Internacionales -->
+        <section id="internacionales">
+          <h2>Internacionales</h2>
+          <div id="internacionalesNoticias"></div>
+        </section>
+
+        <!-- Sección Deportes -->
+        <section id="deportes">
+          <h2>Deportes</h2>
+          <div id="deportesNoticias"></div>
+        </section>
+
+
+        <section id="tecnologia">
+          <h2>Tecnología</h2>
+          <div id="tecnologiaNoticias"></div>
+        </section>
+    </div>
+    
+
+    
+    <!-- Footer animado -->
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <h3>Síguenos en:</h3>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.x.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="company-info">
+                <p><strong>Dirección:</strong> Calle Sol  123, Madrid, España</p>
+                <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                <p><strong>Email:</strong> info@mynews.com</p>
+            </div>
+            <div class="legal-notice">
+                <a href="#">Aviso Legal</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyNews - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
